@@ -1,0 +1,62 @@
+Comandos Linux
+sudo: Da permisos de administrador a los comandos
+apt: Es un paquete que permite instalar el software
+dpkg -l instalador: Se usa para instalar un programa
+sudo apt install paquete: Instala paquetes de software
+sudo apt purge paquete: Elimina los instaladores
+sudo apt remove paquete: Desinstala paquetes
+sudo apt update: Verifica si hay alguna actualización
+sudo apt upgrade: Actualiza todos los paquetes
+wget URL: Descargar archivos
+
+cat archivo: ver el contenido de un archivo
+cd nombredir: cambiar de directorio
+cd .. : regresar al directorio anterior
+cp nombre destino: copiar el contenido a otra ubicación
+du -h comprimido.tar: ver tamaño del archivo
+find -name archivo: encontrar un archivo por nombre
+head -n #: ver el comienzo de un archivo
+ls: mostrar los directorios
+ls -a/-l: listar los archivos
+mkdir: crear una carpeta
+mv archivo.txt NuevoNombre.txt: cambiar nombre
+mv nuevoNombre /ruta: mover ubicación
+nano: editar un archivo
+pwd: ver la ruta actual
+stat archivo: mostrar la fecha en que se creó un archivo
+touch: crear un archivo
+tail -n #: mostrar el final de un archivo
+tar -xvf comprimido.tar: descomprimir
+tar -tvf comprimido.tar: ver los archivos adentro
+
+useradd: crear un usuario
+sudo su: loguearse desde el root
+sudo chown user root archivo.ext: dar permisos
+sudo chmod 777 (permiso) archivo.txt: dar permisos
+whoami: ver el usuario en sesión
+
+ip addr: ver dirección ip.
+hostname: mostrar el nombre del host del sistema.
+telnet: conexión remota a un equipo.
+
+clear: limpiar la pantalla.
+man CMD: mostrar manual del CMD.
+history: mostrar historial de comandos.
+!!: correr comando anterior.
+
+cd /mnt/ram_disk: entrar a la unidad.
+df-h: mostrar todos los discos.
+gnome-disk-utility: ver información del disco.
+gparted: administrar particiones.
+mount: montar particiones nuevas.
+
+docker ps: ver los contenedores que están activos
+sudo apt install docker-ce: instalar docker
+sudo systenctl start docker: iniciar el contenedor
+sudo docker images: mostrar las imágenes descargadas
+sudo docker pull imagen: descargar una imagen
+
+kill -9 PID: matar el proceso
+ps -aux: ver procesos corriendo
+ps -aux | grep Firefox: buscar un proceso en especifico
+pstree: mostrar los procesos jerárquicamente
